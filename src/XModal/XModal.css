@@ -1,8 +1,3 @@
-.modal {
-  text-align: center;
-  margin: 20px;
-}
-
 .open-button {
   font-size: 16px;
   padding: 10px 20px;
@@ -17,7 +12,7 @@
   background-color: #0056b3;
 }
 
-.modal-content {
+.modal {
   position: fixed;
   top: 60%;
   left: 50%;
