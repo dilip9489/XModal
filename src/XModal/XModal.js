@@ -14,6 +14,12 @@ const XModal = () => {
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
 
+  //   const handleBackdropClick = (e) => {
+  //     if (e.target.className === "modal") {
+  //       setIsOpen(false);
+  //     }
+  //   };
+
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
